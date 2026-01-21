@@ -1,0 +1,6 @@
+I am an Applied AI Engineer with 1.5+ years of experience building LLM-powered systems and scalable ML pipelines, with a strong foundation in quantitative finance as my domain specialty.
+My expertise includes agentic workflows, RAG/fine-tuning, and production API platforms on AWS, bridging research prototypes to reliable services.
+
+Currently, I’m focused on agent orchestration + evaluation + deployment, building systems that can call tools, learn from feedback loops, and stay observable in production.
+
+My background includes owning a FastAPI/Docker/Lambda platform, building data fusion pipelines, and developing multi-agent products with persistent memory and RAG stacks.

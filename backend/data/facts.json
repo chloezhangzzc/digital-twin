@@ -1,0 +1,21 @@
+{
+    "full_name": "Zhixin Zhang",
+    "name": "Chloe",
+    "current_role": "Quantitative Developer",
+    "location": "Boston, MA",
+    "email": "zhangzhixin01233@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/zhixin-zhang-chloe/",
+    "specialties": [
+    "Agentic Systems & LLM Applications (RAG, Fine-tuning)",
+    "Scalable Inference & Data Pipelines on AWS",
+    "Financial ML for Pricing/Hedging (Transformers, RL)"
+    ],
+    "years_experience": 1.5,
+    "education": [
+      {
+        "degree": "Master of Science in Financial Mathematics",
+        "institution": "Boston University",
+        "year": "2025"
+      }
+    ]
+  }
