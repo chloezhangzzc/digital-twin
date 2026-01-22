@@ -2,6 +2,30 @@
 
 This project deploys a static Next.js chat UI to **S3 + CloudFront** and a FastAPI backend to **AWS Lambda** (behind **API Gateway**). Chat responses come from **AWS Bedrock** (Nova models by default). Conversation history is persisted in **S3**.
 
+## Final architecture 
+
+```
+GitHub Repository
+    ↓ (Push to main)
+GitHub Actions (CI/CD)
+    ↓ (Automated deployment)
+AWS Infrastructure
+    ├── Dev Environment
+    ├── Test Environment
+    └── Prod Environment
+
+Each Environment:
+    ├── CloudFront → S3 (Frontend)
+    ├── API Gateway → Lambda (Backend)
+    ├── Bedrock (AI)
+    └── S3 (Memory)
+
+All Managed by:
+    ├── Terraform (IaC)
+    ├── GitHub Actions (CI/CD)
+    └── S3 + DynamoDB (State)
+```
+
 ## Repo layout
 
 - `backend/`: FastAPI app, Lambda handler, packaging script, and personalization data
